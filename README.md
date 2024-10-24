@@ -62,18 +62,8 @@ nasm -f elf64 -w+all -w+error -o crc.o crc.asm
 ld --fatal-warnings -o crc crc.o
 ```
 
-### Usage Examples
-Examples from the original task can be found in `test.sh`
-Any number of other examples can be generated using a CRC calculator.
 
-## Contests
-- `crc.asm` contains implementation of the crc program
-- `test.sh` is a script for running example tests
-- `plik1` is used for the example tests
 
-## Testing
-To run example test:
-```bash
-chmod +x test.sh
-./test.sh
-```
+
+
+
